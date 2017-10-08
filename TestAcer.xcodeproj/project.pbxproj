@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3A4ECE1EADD4D40097C329 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A3A4ECD1EADD4D40097C329 /* GoogleService-Info.plist */; };
+		1A3BE8E11EB85EF200109DB3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BE8E01EB85EF200109DB3 /* Post.swift */; };
+		1A3BE8E51EB8AAA500109DB3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BE8E41EB8AAA500109DB3 /* TabBarController.swift */; };
+		1A3BE8E91EB8ACB600109DB3 /* ProfileNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BE8E81EB8ACB600109DB3 /* ProfileNavigationController.swift */; };
+		1A3BE8EB1EB8ACD400109DB3 /* GroupsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BE8EA1EB8ACD400109DB3 /* GroupsNavigationController.swift */; };
+		1A3BE8ED1EB8ACEA00109DB3 /* MyEventsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BE8EC1EB8ACEA00109DB3 /* MyEventsNavigationController.swift */; };
+		1A3BE8EF1EB8AD0000109DB3 /* PostNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BE8EE1EB8AD0000109DB3 /* PostNavigationController.swift */; };
+		1A4F764D1EA9C0B4003680D3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F764C1EA9C0B4003680D3 /* SignUpViewController.swift */; };
+		1A4F764F1EA9D79F003680D3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F764E1EA9D79F003680D3 /* ProfileViewController.swift */; };
+		1A4F765B1EA9F511003680D3 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F765A1EA9F511003680D3 /* GroupsViewController.swift */; };
+		1A4F765D1EA9F51F003680D3 /* MyEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F765C1EA9F51F003680D3 /* MyEventsViewController.swift */; };
+		1A4F765F1EA9F532003680D3 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F765E1EA9F532003680D3 /* PostViewController.swift */; };
+		1A4F76611EA9F577003680D3 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F76601EA9F577003680D3 /* UpdateProfileViewController.swift */; };
+		1AB3C11B1EB2FE770096B143 /* GroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB3C11A1EB2FE770096B143 /* GroupsTableViewCell.swift */; };
+		1AB3C11D1EB2FF6A0096B143 /* MyEventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB3C11C1EB2FF6A0096B143 /* MyEventsTableViewCell.swift */; };
+		1AB3C11F1EB301C30096B143 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB3C11E1EB301C30096B143 /* TextViewController.swift */; };
+		1AE239A31EA06B7A009439CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE239A21EA06B7A009439CF /* AppDelegate.swift */; };
+		1AE239AA1EA06B7A009439CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE239A81EA06B7A009439CF /* Main.storyboard */; };
+		1AE239AC1EA06B7A009439CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE239AB1EA06B7A009439CF /* Assets.xcassets */; };
+		1AE239AF1EA06B7A009439CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE239AD1EA06B7A009439CF /* LaunchScreen.storyboard */; };
+		1AE239BA1EA06B7A009439CF /* TestAcerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE239B91EA06B7A009439CF /* TestAcerTests.swift */; };
+		1AE239C51EA06B7A009439CF /* TestAcerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE239C41EA06B7A009439CF /* TestAcerUITests.swift */; };
+		1AE239D51EA07234009439CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE239D41EA07234009439CF /* LoginViewController.swift */; };
+		430975201F88BA62003CF9E4 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4309751F1F88BA62003CF9E4 /* Profile.storyboard */; };
+		430975231F89059A003CF9E4 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430975221F89059A003CF9E4 /* View.xib */; };
+		931B6DECD6EF72308AC23930 /* Pods_TestAcerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E94F019492CDAEC9C92CB9C /* Pods_TestAcerTests.framework */; };
+		B7B6402F3EF7F421DDE330D7 /* Pods_TestAcerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0076047F45033906A01BB99 /* Pods_TestAcerUITests.framework */; };
+		D3A419ACB57E2431949E72B8 /* Pods_TestAcer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5878555CA9AB3BCF6669E3E8 /* Pods_TestAcer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE239B61EA06B7A009439CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE239971EA06B7A009439CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE2399E1EA06B7A009439CF;
+			remoteInfo = TestAcer;
+		};
+		1AE239C11EA06B7A009439CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE239971EA06B7A009439CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE2399E1EA06B7A009439CF;
+			remoteInfo = TestAcer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F925E174F030153DF7CB037 /* Pods-TestAcerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAcerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAcerUITests/Pods-TestAcerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1158F48C8C72BB75D99D016E /* Pods-TestAcerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAcerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestAcerTests/Pods-TestAcerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A3A4ECD1EADD4D40097C329 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A3BE8E01EB85EF200109DB3 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1A3BE8E41EB8AAA500109DB3 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1A3BE8E81EB8ACB600109DB3 /* ProfileNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileNavigationController.swift; sourceTree = "<group>"; };
+		1A3BE8EA1EB8ACD400109DB3 /* GroupsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsNavigationController.swift; sourceTree = "<group>"; };
+		1A3BE8EC1EB8ACEA00109DB3 /* MyEventsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventsNavigationController.swift; sourceTree = "<group>"; };
+		1A3BE8EE1EB8AD0000109DB3 /* PostNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostNavigationController.swift; sourceTree = "<group>"; };
+		1A4F764C1EA9C0B4003680D3 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1A4F764E1EA9D79F003680D3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1A4F765A1EA9F511003680D3 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		1A4F765C1EA9F51F003680D3 /* MyEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventsViewController.swift; sourceTree = "<group>"; };
+		1A4F765E1EA9F532003680D3 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		1A4F76601EA9F577003680D3 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		1AB3C11A1EB2FE770096B143 /* GroupsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsTableViewCell.swift; sourceTree = "<group>"; };
+		1AB3C11C1EB2FF6A0096B143 /* MyEventsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventsTableViewCell.swift; sourceTree = "<group>"; };
+		1AB3C11E1EB301C30096B143 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		1AE2399F1EA06B7A009439CF /* TestAcer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAcer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE239A21EA06B7A009439CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AE239A91EA06B7A009439CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AE239AB1EA06B7A009439CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AE239AE1EA06B7A009439CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AE239B01EA06B7A009439CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE239B51EA06B7A009439CF /* TestAcerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAcerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE239B91EA06B7A009439CF /* TestAcerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAcerTests.swift; sourceTree = "<group>"; };
+		1AE239BB1EA06B7A009439CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE239C01EA06B7A009439CF /* TestAcerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAcerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE239C41EA06B7A009439CF /* TestAcerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAcerUITests.swift; sourceTree = "<group>"; };
+		1AE239C61EA06B7A009439CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE239D41EA07234009439CF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3C51F3310C4202CEE79F9809 /* Pods-TestAcer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAcer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAcer/Pods-TestAcer.release.xcconfig"; sourceTree = "<group>"; };
+		40DE30ACA4B482CBDA9F70F6 /* Pods-TestAcerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAcerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestAcerUITests/Pods-TestAcerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4309751F1F88BA62003CF9E4 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		430975221F89059A003CF9E4 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		5878555CA9AB3BCF6669E3E8 /* Pods_TestAcer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAcer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		641CF7499B4D4F5F0B0E4357 /* Pods-TestAcerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAcerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAcerTests/Pods-TestAcerTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E94F019492CDAEC9C92CB9C /* Pods_TestAcerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAcerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64F047B0FBBBCB523AA56AE /* Pods-TestAcer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAcer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestAcer/Pods-TestAcer.debug.xcconfig"; sourceTree = "<group>"; };
+		F0076047F45033906A01BB99 /* Pods_TestAcerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAcerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE2399C1EA06B7A009439CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A419ACB57E2431949E72B8 /* Pods_TestAcer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE239B21EA06B7A009439CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B6DECD6EF72308AC23930 /* Pods_TestAcerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE239BD1EA06B7A009439CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B6402F3EF7F421DDE330D7 /* Pods_TestAcerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3BE8DD1EB73D8200109DB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A3BE8E01EB85EF200109DB3 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1A3BE8E71EB8AC7E00109DB3 /* Navigation and Tab */ = {
+			isa = PBXGroup;
+			children = (
+				1A3BE8E41EB8AAA500109DB3 /* TabBarController.swift */,
+				1A3BE8EC1EB8ACEA00109DB3 /* MyEventsNavigationController.swift */,
+				1A3BE8EA1EB8ACD400109DB3 /* GroupsNavigationController.swift */,
+				1A3BE8EE1EB8AD0000109DB3 /* PostNavigationController.swift */,
+			);
+			name = "Navigation and Tab";
+			sourceTree = "<group>";
+		};
+		1A4F764B1EA9B427003680D3 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F764C1EA9C0B4003680D3 /* SignUpViewController.swift */,
+				1AE239D41EA07234009439CF /* LoginViewController.swift */,
+				1A4F764E1EA9D79F003680D3 /* ProfileViewController.swift */,
+				1A4F76601EA9F577003680D3 /* UpdateProfileViewController.swift */,
+			);
+			name = Authorization;
+			sourceTree = "<group>";
+		};
+		1A4F76501EA9E8DA003680D3 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				430975211F89048C003CF9E4 /* Group Cell */,
+				1A4F765A1EA9F511003680D3 /* GroupsViewController.swift */,
+				1AB3C11A1EB2FE770096B143 /* GroupsTableViewCell.swift */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		1A4F76511EA9E91A003680D3 /* MyEvents */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F765C1EA9F51F003680D3 /* MyEventsViewController.swift */,
+				1AB3C11C1EB2FF6A0096B143 /* MyEventsTableViewCell.swift */,
+				1AB3C11E1EB301C30096B143 /* TextViewController.swift */,
+			);
+			name = MyEvents;
+			sourceTree = "<group>";
+		};
+		1A4F76531EA9E92F003680D3 /* Posting */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F765E1EA9F532003680D3 /* PostViewController.swift */,
+			);
+			name = Posting;
+			sourceTree = "<group>";
+		};
+		1AE239961EA06B7A009439CF = {
+			isa = PBXGroup;
+			children = (
+				1AE239A11EA06B7A009439CF /* TestAcer */,
+				1AE239B81EA06B7A009439CF /* TestAcerTests */,
+				1AE239C31EA06B7A009439CF /* TestAcerUITests */,
+				1AE239A01EA06B7A009439CF /* Products */,
+				57C585C00509E65D2963BC33 /* Pods */,
+				D13937FCB56B5854F5D1DFC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AE239A01EA06B7A009439CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE2399F1EA06B7A009439CF /* TestAcer.app */,
+				1AE239B51EA06B7A009439CF /* TestAcerTests.xctest */,
+				1AE239C01EA06B7A009439CF /* TestAcerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AE239A11EA06B7A009439CF /* TestAcer */ = {
+			isa = PBXGroup;
+			children = (
+				4309751C1F88B905003CF9E4 /* Profile */,
+				1A3BE8E71EB8AC7E00109DB3 /* Navigation and Tab */,
+				1A3BE8DD1EB73D8200109DB3 /* Model */,
+				1A4F764B1EA9B427003680D3 /* Authorization */,
+				1A4F76501EA9E8DA003680D3 /* Groups */,
+				1A4F76511EA9E91A003680D3 /* MyEvents */,
+				1A4F76531EA9E92F003680D3 /* Posting */,
+				1AE239A81EA06B7A009439CF /* Main.storyboard */,
+				1AE239A21EA06B7A009439CF /* AppDelegate.swift */,
+				1AE239AB1EA06B7A009439CF /* Assets.xcassets */,
+				1AE239AD1EA06B7A009439CF /* LaunchScreen.storyboard */,
+				1A3A4ECD1EADD4D40097C329 /* GoogleService-Info.plist */,
+				1AE239B01EA06B7A009439CF /* Info.plist */,
+			);
+			path = TestAcer;
+			sourceTree = "<group>";
+		};
+		1AE239B81EA06B7A009439CF /* TestAcerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE239B91EA06B7A009439CF /* TestAcerTests.swift */,
+				1AE239BB1EA06B7A009439CF /* Info.plist */,
+			);
+			path = TestAcerTests;
+			sourceTree = "<group>";
+		};
+		1AE239C31EA06B7A009439CF /* TestAcerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE239C41EA06B7A009439CF /* TestAcerUITests.swift */,
+				1AE239C61EA06B7A009439CF /* Info.plist */,
+			);
+			path = TestAcerUITests;
+			sourceTree = "<group>";
+		};
+		4309751C1F88B905003CF9E4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1A3BE8E81EB8ACB600109DB3 /* ProfileNavigationController.swift */,
+				4309751F1F88BA62003CF9E4 /* Profile.storyboard */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		430975211F89048C003CF9E4 /* Group Cell */ = {
+			isa = PBXGroup;
+			children = (
+				430975221F89059A003CF9E4 /* View.xib */,
+			);
+			name = "Group Cell";
+			sourceTree = "<group>";
+		};
+		57C585C00509E65D2963BC33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C64F047B0FBBBCB523AA56AE /* Pods-TestAcer.debug.xcconfig */,
+				3C51F3310C4202CEE79F9809 /* Pods-TestAcer.release.xcconfig */,
+				1158F48C8C72BB75D99D016E /* Pods-TestAcerTests.debug.xcconfig */,
+				641CF7499B4D4F5F0B0E4357 /* Pods-TestAcerTests.release.xcconfig */,
+				40DE30ACA4B482CBDA9F70F6 /* Pods-TestAcerUITests.debug.xcconfig */,
+				0F925E174F030153DF7CB037 /* Pods-TestAcerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D13937FCB56B5854F5D1DFC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5878555CA9AB3BCF6669E3E8 /* Pods_TestAcer.framework */,
+				8E94F019492CDAEC9C92CB9C /* Pods_TestAcerTests.framework */,
+				F0076047F45033906A01BB99 /* Pods_TestAcerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AE2399E1EA06B7A009439CF /* TestAcer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE239C91EA06B7A009439CF /* Build configuration list for PBXNativeTarget "TestAcer" */;
+			buildPhases = (
+				03DC7A8911419356F2929DB3 /* [CP] Check Pods Manifest.lock */,
+				1AE2399B1EA06B7A009439CF /* Sources */,
+				1AE2399C1EA06B7A009439CF /* Frameworks */,
+				1AE2399D1EA06B7A009439CF /* Resources */,
+				E0ED10F7E85F9E625125C8A7 /* [CP] Embed Pods Frameworks */,
+				40ED2D210046968783CA4007 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAcer;
+			productName = TestAcer;
+			productReference = 1AE2399F1EA06B7A009439CF /* TestAcer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AE239B41EA06B7A009439CF /* TestAcerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE239CC1EA06B7A009439CF /* Build configuration list for PBXNativeTarget "TestAcerTests" */;
+			buildPhases = (
+				83B490A95D3CCD9348BC2DBB /* [CP] Check Pods Manifest.lock */,
+				1AE239B11EA06B7A009439CF /* Sources */,
+				1AE239B21EA06B7A009439CF /* Frameworks */,
+				1AE239B31EA06B7A009439CF /* Resources */,
+				1A1BF65BBE92EB503B07B8C6 /* [CP] Embed Pods Frameworks */,
+				D229825D9887861A93B24D51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE239B71EA06B7A009439CF /* PBXTargetDependency */,
+			);
+			name = TestAcerTests;
+			productName = TestAcerTests;
+			productReference = 1AE239B51EA06B7A009439CF /* TestAcerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AE239BF1EA06B7A009439CF /* TestAcerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE239CF1EA06B7A009439CF /* Build configuration list for PBXNativeTarget "TestAcerUITests" */;
+			buildPhases = (
+				1123259960523693E0F4EF7E /* [CP] Check Pods Manifest.lock */,
+				1AE239BC1EA06B7A009439CF /* Sources */,
+				1AE239BD1EA06B7A009439CF /* Frameworks */,
+				1AE239BE1EA06B7A009439CF /* Resources */,
+				1A0C82E516BB44B3B980F90F /* [CP] Embed Pods Frameworks */,
+				3038E07969F4DB4FE096E889 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE239C21EA06B7A009439CF /* PBXTargetDependency */,
+			);
+			name = TestAcerUITests;
+			productName = TestAcerUITests;
+			productReference = 1AE239C01EA06B7A009439CF /* TestAcerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE239971EA06B7A009439CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Charles You";
+				TargetAttributes = {
+					1AE2399E1EA06B7A009439CF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7EFH292C5Z;
+						ProvisioningStyle = Automatic;
+					};
+					1AE239B41EA06B7A009439CF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AE2399E1EA06B7A009439CF;
+					};
+					1AE239BF1EA06B7A009439CF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AE2399E1EA06B7A009439CF;
+					};
+				};
+			};
+			buildConfigurationList = 1AE2399A1EA06B7A009439CF /* Build configuration list for PBXProject "TestAcer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AE239961EA06B7A009439CF;
+			productRefGroup = 1AE239A01EA06B7A009439CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AE2399E1EA06B7A009439CF /* TestAcer */,
+				1AE239B41EA06B7A009439CF /* TestAcerTests */,
+				1AE239BF1EA06B7A009439CF /* TestAcerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AE2399D1EA06B7A009439CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE239AF1EA06B7A009439CF /* LaunchScreen.storyboard in Resources */,
+				1A3A4ECE1EADD4D40097C329 /* GoogleService-Info.plist in Resources */,
+				430975201F88BA62003CF9E4 /* Profile.storyboard in Resources */,
+				1AE239AC1EA06B7A009439CF /* Assets.xcassets in Resources */,
+				430975231F89059A003CF9E4 /* View.xib in Resources */,
+				1AE239AA1EA06B7A009439CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE239B31EA06B7A009439CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE239BE1EA06B7A009439CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03DC7A8911419356F2929DB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1123259960523693E0F4EF7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A0C82E516BB44B3B980F90F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAcerUITests/Pods-TestAcerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A1BF65BBE92EB503B07B8C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAcerTests/Pods-TestAcerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3038E07969F4DB4FE096E889 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAcerUITests/Pods-TestAcerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40ED2D210046968783CA4007 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAcer/Pods-TestAcer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B490A95D3CCD9348BC2DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D229825D9887861A93B24D51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAcerTests/Pods-TestAcerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0ED10F7E85F9E625125C8A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAcer/Pods-TestAcer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE2399B1EA06B7A009439CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB3C11F1EB301C30096B143 /* TextViewController.swift in Sources */,
+				1A3BE8E91EB8ACB600109DB3 /* ProfileNavigationController.swift in Sources */,
+				1A3BE8E51EB8AAA500109DB3 /* TabBarController.swift in Sources */,
+				1A4F764D1EA9C0B4003680D3 /* SignUpViewController.swift in Sources */,
+				1AE239D51EA07234009439CF /* LoginViewController.swift in Sources */,
+				1A4F765F1EA9F532003680D3 /* PostViewController.swift in Sources */,
+				1A3BE8ED1EB8ACEA00109DB3 /* MyEventsNavigationController.swift in Sources */,
+				1A3BE8E11EB85EF200109DB3 /* Post.swift in Sources */,
+				1A3BE8EB1EB8ACD400109DB3 /* GroupsNavigationController.swift in Sources */,
+				1A4F764F1EA9D79F003680D3 /* ProfileViewController.swift in Sources */,
+				1AB3C11D1EB2FF6A0096B143 /* MyEventsTableViewCell.swift in Sources */,
+				1AB3C11B1EB2FE770096B143 /* GroupsTableViewCell.swift in Sources */,
+				1A4F765D1EA9F51F003680D3 /* MyEventsViewController.swift in Sources */,
+				1A4F76611EA9F577003680D3 /* UpdateProfileViewController.swift in Sources */,
+				1AE239A31EA06B7A009439CF /* AppDelegate.swift in Sources */,
+				1A3BE8EF1EB8AD0000109DB3 /* PostNavigationController.swift in Sources */,
+				1A4F765B1EA9F511003680D3 /* GroupsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE239B11EA06B7A009439CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE239BA1EA06B7A009439CF /* TestAcerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE239BC1EA06B7A009439CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE239C51EA06B7A009439CF /* TestAcerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AE239B71EA06B7A009439CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE2399E1EA06B7A009439CF /* TestAcer */;
+			targetProxy = 1AE239B61EA06B7A009439CF /* PBXContainerItemProxy */;
+		};
+		1AE239C21EA06B7A009439CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE2399E1EA06B7A009439CF /* TestAcer */;
+			targetProxy = 1AE239C11EA06B7A009439CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AE239A81EA06B7A009439CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE239A91EA06B7A009439CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AE239AD1EA06B7A009439CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE239AE1EA06B7A009439CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AE239C71EA06B7A009439CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE239C81EA06B7A009439CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE239CA1EA06B7A009439CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64F047B0FBBBCB523AA56AE /* Pods-TestAcer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EFH292C5Z;
+				INFOPLIST_FILE = TestAcer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdecal.TestAcer77;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1AE239CB1EA06B7A009439CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C51F3310C4202CEE79F9809 /* Pods-TestAcer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EFH292C5Z;
+				INFOPLIST_FILE = TestAcer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdecal.TestAcer77;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1AE239CD1EA06B7A009439CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1158F48C8C72BB75D99D016E /* Pods-TestAcerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestAcerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdecal.TestAcerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAcer.app/TestAcer";
+			};
+			name = Debug;
+		};
+		1AE239CE1EA06B7A009439CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641CF7499B4D4F5F0B0E4357 /* Pods-TestAcerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestAcerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdecal.TestAcerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAcer.app/TestAcer";
+			};
+			name = Release;
+		};
+		1AE239D01EA06B7A009439CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40DE30ACA4B482CBDA9F70F6 /* Pods-TestAcerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TestAcerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdecal.TestAcerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestAcer;
+			};
+			name = Debug;
+		};
+		1AE239D11EA06B7A009439CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F925E174F030153DF7CB037 /* Pods-TestAcerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TestAcerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdecal.TestAcerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestAcer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE2399A1EA06B7A009439CF /* Build configuration list for PBXProject "TestAcer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE239C71EA06B7A009439CF /* Debug */,
+				1AE239C81EA06B7A009439CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE239C91EA06B7A009439CF /* Build configuration list for PBXNativeTarget "TestAcer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE239CA1EA06B7A009439CF /* Debug */,
+				1AE239CB1EA06B7A009439CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE239CC1EA06B7A009439CF /* Build configuration list for PBXNativeTarget "TestAcerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE239CD1EA06B7A009439CF /* Debug */,
+				1AE239CE1EA06B7A009439CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE239CF1EA06B7A009439CF /* Build configuration list for PBXNativeTarget "TestAcerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE239D01EA06B7A009439CF /* Debug */,
+				1AE239D11EA06B7A009439CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AE239971EA06B7A009439CF /* Project object */;
+}

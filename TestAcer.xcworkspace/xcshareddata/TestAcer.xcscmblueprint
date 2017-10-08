@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "18C837942B8A4E2EACF14AB3B708C6CDF4B71A6F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "18C837942B8A4E2EACF14AB3B708C6CDF4B71A6F" : 9223372036854775807,
+    "9AC40490CE743582AEC2E60A0540FED5D8C6159A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C911E69D-4E91-4581-BFDD-FA86BC467C66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "18C837942B8A4E2EACF14AB3B708C6CDF4B71A6F" : "TestAcer\/",
+    "9AC40490CE743582AEC2E60A0540FED5D8C6159A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestAcer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestAcer.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tyyou77\/IOS-Final-Project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18C837942B8A4E2EACF14AB3B708C6CDF4B71A6F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/tyou77\/ios-decal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9AC40490CE743582AEC2E60A0540FED5D8C6159A"
+    }
+  ]
+}

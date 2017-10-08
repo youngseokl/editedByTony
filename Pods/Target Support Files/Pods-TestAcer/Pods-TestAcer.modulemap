@@ -1,0 +1,6 @@
+framework module Pods_TestAcer {
+  umbrella header "Pods-TestAcer-umbrella.h"
+
+  export *
+  module * { export * }
+}
